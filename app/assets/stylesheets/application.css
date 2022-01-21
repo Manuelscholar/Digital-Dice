@@ -24,7 +24,7 @@
 }
 body {
     height: 100vh;
-    background: linear-gradient(#2df7ba, #27c1cc) 0 100% no-repeat;
+    background: linear-gradient(#05eeff, #05eeff) 0 100% no-repeat;
     background-size: 100% 50%;
 }
 #loader {
