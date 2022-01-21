@@ -1,0 +1,18 @@
+<br><br><br><br><br><br><br><br><br><br>
+<div class="text-center">
+  <div id="loader"></div>
+  <div id="wrapper">
+    <div id="container">
+      <div class="dice-wrapper">
+        <%= render(DiceComponent.new(did: 'die-1', random_dice_result: @random_dice1_result)) do %>
+        <% end %>
+        <%= render(DiceComponent.new(did: 'die-2', random_dice_result: @random_dice2_result)) do %>
+        <% end %>
+      </div>
+      <p id="total"></p>
+      <%=link_to "ROLL!!!", home_dice_path ,class:"button"%>
+    </div>
+  </div>
+  <br><br><br><br><br>
+</div>
+
