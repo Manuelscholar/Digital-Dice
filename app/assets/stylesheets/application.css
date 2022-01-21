@@ -118,14 +118,3 @@ p {
     height: 1px;
     opacity: 0;
 }
-a {
-    display: block;
-    width: 100%;
-    color: #f3fdfd;
-    background-color: #ffffff;
-    box-shadow: 0 10px 30px rgba(50, 50, 50, 0.2);
-    text-align: center;
-    padding: 15px 0;
-    text-decoration: none;
-    border-radius: 3px;
-}
